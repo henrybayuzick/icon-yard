@@ -1,0 +1,86 @@
+body {
+  background: #181818;
+  color: #cacaca; }
+
+nav a {
+  border-color: #181818; }
+  nav a:hover {
+    color: #cacaca;
+    border-color: #cacaca; }
+
+a {
+  color: #cacaca;
+  border-bottom: 1px solid #353535;
+  transition: border 0.3s ease;
+  -webkit-transition: border 0.3s ease; }
+  a:hover {
+    border-color: #cacaca; }
+
+.night {
+  display: none; }
+
+.day {
+  display: inline-block; }
+
+.bt {
+  border-top-color: #2f2f2f; }
+
+.bb {
+  border-bottom-color: #2f2f2f; }
+
+.search {
+  background: #181818;
+  color: #cacaca; }
+
+*::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #353535; }
+
+*:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #353535;
+  opacity: 1; }
+
+*::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #353535;
+  opacity: 1; }
+
+*:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #353535; }
+
+svg path {
+  fill: #cacaca; }
+
+input[type='text'], input[type='email'], input[type='url'] {
+  color: #cacaca;
+  background: #181818;
+  border-bottom: 1px solid #2f2f2f; }
+  input[type='text']:hover, input[type='email']:hover, input[type='url']:hover {
+    border-bottom: 1px solid #cacaca; }
+  input[type='text']:focus, input[type='email']:focus, input[type='url']:focus {
+    border-bottom: 1px solid #cacaca; }
+
+.checkbox {
+  background: #181818;
+  border: 1px solid #2f2f2f; }
+  .checkbox:hover {
+    border: 1px solid #cacaca; }
+  .checkbox:after {
+    background: #2f2f2f; }
+
+::selection {
+  background: #353535;
+  /* WebKit/Blink Browsers */ }
+
+::-moz-selection {
+  background: #353535;
+  /* Gecko Browsers */ }
+
+input[type='submit'], .svg-upload {
+  background: #181818;
+  color: #cacaca;
+  border: 1px solid #2f2f2f; }
+  input[type='submit']:hover, .svg-upload:hover {
+    border-color: #cacaca; }

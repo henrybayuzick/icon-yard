@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8053) - http://www.bohemiancoding.com/sketch -->
+    <title>night</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Moon-Last-Quarter" sketch:type="MSLayerGroup" fill="#181818">
+            <path d="M7.5,14.99875 C11.640625,14.99875 14.99875,11.641875 14.99875,7.499375 C14.99875,3.358125 11.640625,0.000625 7.5,0.000625 C3.358125,0.000625 0,3.358125 0,7.499375 C0,11.641875 3.358125,14.99875 7.5,14.99875 L7.5,14.99875 Z M7.5,12.49875 C4.73875,12.49875 2.5,10.26125 2.5,7.499375 C2.5,4.73875 4.73875,2.500625 7.5,2.500625 L7.5,12.49875 L7.5,12.49875 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

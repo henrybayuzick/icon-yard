@@ -1,0 +1,110 @@
+@import "modules/variables";
+
+body {
+	background:$darkest-gray;
+	color:$light-gray;
+}
+
+nav a {
+	border-color:$darkest-gray;
+
+	&:hover{
+		color:$light-gray;
+		border-color:$light-gray;
+	}
+}
+
+a {
+	color: $light-gray;
+	border-bottom:1px solid $gray;
+	transition: border 0.3s ease;
+	-webkit-transition: border 0.3s ease;
+
+	&:hover {
+		border-color: $light-gray;
+	}
+}
+
+.night {
+	display:none;
+}
+
+.day {
+	display:inline-block;
+}
+
+.bt {
+	border-top-color: $dark-gray;
+}
+
+.bb {
+	border-bottom-color: $dark-gray;
+}
+
+.search {
+	background:$darkest-gray;
+	color:$light-gray;
+}
+
+*::-webkit-input-placeholder { /* WebKit browsers */
+    color: $gray;
+}
+*:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: $gray;
+   opacity:  1;
+}
+*::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: $gray;
+   opacity:  1;
+}
+*:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color: $gray;
+}
+
+svg path{
+	fill: $light-gray;
+}
+
+input[type='text'], input[type='email'], input[type='url'] {
+	color:$light-gray;
+	background:$darkest-gray;
+	border-bottom:1px solid $dark-gray;
+
+	&:hover {
+		border-bottom:1px solid $light-gray;
+	}
+
+	&:focus {
+		border-bottom:1px solid $light-gray;
+	}
+}
+
+.checkbox {
+	background:$darkest-gray;
+	border:1px solid $dark-gray;
+
+	&:hover {
+		border:1px solid $light-gray;
+	}
+
+	&:after {
+      background: $dark-gray;
+    }
+}
+
+::selection {
+  background: $gray; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: $gray; /* Gecko Browsers */
+}
+
+input[type='submit'], .svg-upload {
+	background:$darkest-gray;
+	color:$light-gray;
+	border: 1px solid $dark-gray;
+
+	&:hover {
+		border-color:$light-gray;
+	}
+}

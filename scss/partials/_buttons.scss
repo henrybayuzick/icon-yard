@@ -1,0 +1,17 @@
+.btn {
+	color: $gray;
+	font-family: $font-family-1;
+	font-size: 0.75em;
+	padding: $space*.5 $space*2.5;
+	border: 1px solid $light-gray;
+	text-transform: uppercase;
+	letter-spacing: 0.08rem;
+	transition: border 0.3s ease;
+	-webkit-transition: border 0.3s ease;
+
+	&:hover {
+		border-color: $gray;
+	}
+}
+
+a.btn { text-decoration: none; }

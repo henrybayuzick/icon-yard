@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8053) - http://www.bohemiancoding.com/sketch -->
+    <title>day</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Sun" sketch:type="MSLayerGroup" fill="#CACACA">
+            <path d="M7.500625,14.99875 C3.35875,14.99875 0.000625,11.64125 0.000625,7.5 C0.000625,3.358125 3.358125,0.000625 7.500625,0.000625 C11.6425,0.000625 14.999375,3.358125 14.999375,7.5 C14.999375,11.64125 11.6425,14.99875 7.500625,14.99875 L7.500625,14.99875 Z M7.500625,2.500625 C4.739375,2.500625 2.500625,4.73875 2.500625,7.5 C2.500625,10.260625 4.74,12.499375 7.500625,12.499375 C10.26125,12.499375 12.499375,10.260625 12.499375,7.5 C12.499375,4.73875 10.261875,2.500625 7.500625,2.500625 L7.500625,2.500625 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
