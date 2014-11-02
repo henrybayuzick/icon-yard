@@ -2,6 +2,8 @@
     /* Template Name: Home */
     get_header()
 ?>
+<?php error_reporting(-1);
+ini_set('display_errors', 'On');?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
     <h1 class="text-center mt4 mb4 wrapper"><?php the_field('lead') ?></h1>
