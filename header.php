@@ -18,8 +18,6 @@
 
     </head>
     <body>
-    <?php error_reporting(-1);
-ini_set('display_errors', 'On');?>
     <header role="banner" class="wrapper mt3 cf">
         <a class="float-left b0" href="<?php echo home_url(); ?>">Icon Yard</a>
         <nav class="float-right">
