@@ -224,3 +224,8 @@ input[type='submit']{
 		border-color:$gray;
 	}
 }
+
+svg {
+	min-width:40px;
+	min-height:40px;
+}

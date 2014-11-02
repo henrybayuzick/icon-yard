@@ -7,7 +7,7 @@
     <h1 class="text-center mt4 mb4 wrapper"><?php the_field('lead') ?></h1>
 
     <section class="bt bb">
-        <form role="search" method="get" action="<?php echo home_url( '/' ); ?>" class="wrapper mt3 mb3">
+        <form role="search" method="get" action="<?php echo home_url( '/search/category/' ); ?>" class="wrapper mt3 mb3">
             <input class="search" type="search" value="<?php echo get_search_query() ?>" name="s" placeholder="Search for an icon" autofocus="autofocus">
             <input type="submit" style="position: absolute; left: -9999px; width: 1px; height: 1px;"/>
         </form>
