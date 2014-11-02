@@ -1,5 +1,5 @@
 $(function() {
-	 Goodnight.css('./css/night.min.css')
+	 Goodnight.css('http://iconyard.com/wp-content/themes/icon-yard/css/night.min.css')
 
 	$('[data-button="theme-toggle"]').click(function() {
 		Goodnight.toggle();
