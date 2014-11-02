@@ -50,7 +50,7 @@ a {
   /* Internet Explorer 10+ */
   color: #353535; }
 
-svg path {
+svg path, svg polygon {
   fill: #cacaca; }
 
 input[type='text'], input[type='email'], input[type='url'] {

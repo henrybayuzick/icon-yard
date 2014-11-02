@@ -61,7 +61,9 @@ a {
    color: $gray;
 }
 
-svg path{
+svg path, svg polygon {
+	min-height:40px;
+	min-width:40px;
 	fill: $light-gray;
 }
 
