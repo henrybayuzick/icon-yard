@@ -20,7 +20,7 @@ gulp.task('styles', function() {
 });
 
 gulp.task('scripts', function() {
-	return gulp.src(['./js/*.js,','./js/vendor/*.js'])
+	return gulp.src(['./js/vendor/*.js', './js/main.js'])
 		.pipe(concat('all.js'))
 		.pipe(rename({suffix: '.min'}))
 		.pipe(uglify())
